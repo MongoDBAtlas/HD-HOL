@@ -60,9 +60,6 @@ Database 메뉴를 클릭 하면 생성된 데이터 베이스 클러스터를 �
 클라이언트 애플리케이션 테스트를 위한 Nodejs 필요합니다.
 MongoDB에 접속하고 데이터를 조회 하는 GUI Tool (Compass)를 다운로드 합니다.
 
-Nodejs : 
-https://nodejs.org/en/download/
-
 Compass :   
 https://www.mongodb.com/products/compass
 
