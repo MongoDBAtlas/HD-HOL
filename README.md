@@ -22,8 +22,7 @@ __Agenda__
     - Explain (ESR & Tips)
     - Monitoring
     - Aggregation
-    
-     
+       
 - __Handson__  [GitHub][3]
     - Index & Explain
 
