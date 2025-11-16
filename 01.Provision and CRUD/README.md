@@ -48,7 +48,7 @@ Terminal을 열고 해당 주소를 이용하여 mongosh를 실행 하여 줍니
  % mongosh "mongodb+srv://cluster0.grkk9n.mongodb.net/" --apiVersion 1 --username user01    
 Enter password: **********
 Current Mongosh Log ID:	64454459813babb209a83f4c
-Connecting to:		mongodb+srv://cluster0.5qjlg.mongodb.net/myFirstDatabase
+Connecting to:		mongodb+srv://cluster0.5qjlg.mongodb.net/test
 Using MongoDB:		6.0.5 (API Version 1)
 Using Mongosh:		1.0.5
 
@@ -63,7 +63,7 @@ Mongosh을 이용하여 Atlas와 연결하여 데이터를 생성 합니다.
 
 먼저 데이터베이스를 선택하여야 합니다.
 ````
-Atlas atlas-r2fbdn-shard-0 [primary] myFirstDatabase> use hddb
+Atlas atlas-r2fbdn-shard-0 [primary] test> use hddb
 switched to db hddb
 Atlas atlas-r2fbdn-shard-0 [primary] hddb>
 ````
@@ -101,7 +101,7 @@ Mongosh을 이용하여 Atlas와 연결하여 데이터를 조회 합니다.
 
 먼저 데이터베이스를 선택하여야 합니다. (이미 해당 데이터베이스를 사용 하고 있으면 생략 합니다)
 ````
-Atlas atlas-r2fbdn-shard-0 [primary] myFirstDatabase> use hddb
+Atlas atlas-r2fbdn-shard-0 [primary] test> use hddb
 switched to db hddb
 Atlas atlas-r2fbdn-shard-0 [primary] hddb>
 ````
@@ -189,7 +189,7 @@ Mongosh을 이용하여 Atlas와 연결하여 데이터를 업데이트 (Hobbies
 
 먼저 데이터베이스를 선택하여야 합니다. (이미 해당 데이터베이스를 사용 하고 있으면 생략 합니다)
 ````
-Atlas atlas-r2fbdn-shard-0 [primary] myFirstDatabase> use hddb
+Atlas atlas-r2fbdn-shard-0 [primary] test> use hddb
 switched to db hddb
 Atlas atlas-r2fbdn-shard-0 [primary] hddb>
 ````
