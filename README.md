@@ -36,14 +36,9 @@ __Agenda__
 
 
 
-[0]: https://github.com/min-hol-repo/HD-HOL/tree/main/00.pre-work
+[0]: https://github.com/MongoDBAtlas/HD-HOL/tree/main/00.pre-work
 
-[1]: https://github.com/MongoDBAtlas/MongoDBAtlasTraining/tree/main/01.Provision%20and%20CRUD
+[1]: https://github.com/MongoDBAtlas/HD-HOL/tree/main/01.Provision%20and%20CRUD
 
+[3]: https://github.com/MongoDBAtlas/HD-HOL/tree/main/03.index%20and%20aggregation
 
-[3]: https://github.com/MongoDBAtlas/MongoDBAtlasTraining/tree/main/03.index%20and%20aggregation
-
-
-[4]: https://github.com/MongoDBAtlas/MongoDBAtlasTraining/tree/main/04.atlas-search
-
-[5]: https://github.com/MongoDBAtlas/MongoDBAtlasTraining/tree/main/05.atlas-serverless
