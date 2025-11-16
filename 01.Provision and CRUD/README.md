@@ -271,9 +271,16 @@ MongoDB Cluster에 접속하여 저장된 데이터 등을 볼 수 있는 개발
 Compass :   
 https://www.mongodb.com/products/compass
 
+먼저 데이터베이스를 선택하여야 합니다.
+````
+Atlas atlas-r2fbdn-shard-0 [primary] hddb> use handson
+switched to db handson
+Atlas atlas-r2fbdn-shard-0 [primary] handson>
+````
+
 테스트를 위해 다음 코드를 복사한 후 mongosh에서 붙여넣기 및 실행하여 데이터를 생성하여 줍니다.
 ````
-const userCollection = db.getCollection("users");  
+const userCollection = db.getCollection("user");  
   
 async function insertUsers() {  
   for (let i = 0; i < 100; i++) {  
@@ -306,8 +313,7 @@ async function insertUsers() {
 }  
   
 // 함수 호출  
-insertUsers(); 
-...
+insertUsers();
 ````
 <img src="/01.Provision and CRUD/images/image22.png" width="90%" height="90%">     
 데이터가 100건이 생성이 되게 됩니다.
