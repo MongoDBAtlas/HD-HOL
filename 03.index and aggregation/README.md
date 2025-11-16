@@ -32,7 +32,8 @@ db.movies.find(
 	{"title":1}
 )
 ````
-<img src="/03.index and aggregation/images/image01.png" width="100%" height="100%">     
+<img src="/03.index and aggregation/images/image01.png" width="100%" height="100%">
+<img src="/03.index and aggregation/images/image13.png" width="100%" height="100%">     
 
 No index available for this query 로 인덱스가 사용 되지 않은 것을 확인 할 수 있으며 Dcouments Examined의 갯수가 23530으로 전체 문서가 스캔 된 것을 확인 할 수 있습니다.    
 또한 Documnets Returned 가 12인 것으로 전체 문서 중 12개 문서가 리턴된 것으로 12개 문서를 찾기 위해 23530 문서를 검색한 것으로 비효율적인 것을 알 수 있습니다.
