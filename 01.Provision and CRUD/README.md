@@ -271,16 +271,45 @@ MongoDB Cluster에 접속하여 저장된 데이터 등을 볼 수 있는 개발
 Compass :   
 https://www.mongodb.com/products/compass
 
-테스트를 위해 다음 방법으로 데이터를 생성 하여 줍니다.
+테스트를 위해 다음 코드를 복사한 후 mongosh에서 붙여넣기 및 실행하여 데이터를 생성하여 줍니다.
 ````
-% node insertMany.js 
-A document was inserted with the _id: 63e32381541c67cc69d78977
-A document was inserted with the _id: 63e32381541c67cc69d78978
-A document was inserted with the _id: 63e32381541c67cc69d78979
-A document was inserted with the _id: 63e32381541c67cc69d7897a
+const userCollection = db.getCollection("users");  
+  
+async function insertUsers() {  
+  for (let i = 0; i < 100; i++) {  
+    const newUser = {  
+      ssn: "123-456-000" + i,  
+      email: "user" + i + "@email.com",  
+      name: "Gildong Hong " + i,  
+      age: Math.floor(Math.random() * 100),  
+      DateOfBirth: "1st Jan.",  
+      Hobbies: ["Martial arts"],  
+      Addresses: [  
+        {  
+          "Address Name": "Work",  
+          Street: "431, Teheran-ro GangNam-gu",  
+          City: "Seoul",  
+          Zip: "06159"  
+        }  
+      ],  
+      Phones: [  
+        {  
+          type: "mobile",  
+          number: "010-5555-1234"  
+        }  
+      ]  
+    };  
+  
+    const result = await userCollection.insertOne(newUser);  
+    print(`A document was inserted with the _id: ${result.insertedId}`);  
+  }  
+}  
+  
+// 함수 호출  
+insertUsers(); 
 ...
 ````
-
+<img src="/01.Provision and CRUD/images/image22.png" width="90%" height="90%">     
 데이터가 100건이 생성이 되게 됩니다.
 
 
