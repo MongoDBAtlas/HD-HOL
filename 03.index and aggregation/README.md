@@ -32,7 +32,7 @@ db.movies.find(
 	{"title":1}
 )
 ````
-<img src="/03.index and aggregation/images/image01.png" width="100%" height="100%">
+<img src="/03.index and aggregation/images/image14.png" width="100%" height="100%">
 <img src="/03.index and aggregation/images/image13.png" width="100%" height="100%">     
 
 No index available for this query 로 인덱스가 사용 되지 않은 것을 확인 할 수 있으며 Dcouments Examined의 갯수가 23530으로 전체 문서가 스캔 된 것을 확인 할 수 있습니다.    
