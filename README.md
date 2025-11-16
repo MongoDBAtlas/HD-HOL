@@ -16,15 +16,8 @@ __Agenda__
     - Provision database
     - CRUD
      
-
-- Break
-    
-
-2. __Document Modeling__
-    - Modeling
-    
       
-3.  __Index & Aggregation__
+2.  __Index & Aggregation__
     - Index
     - Explain (ESR & Tips)
     - Monitoring
