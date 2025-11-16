@@ -36,7 +36,7 @@ __Agenda__
 
 
 
-[0]: https://github.com/MongoDBAtlas/MongoDBAtlasTraining/tree/main/00.pre-work
+[0]: https://github.com/min-hol-repo/HD-HOL/tree/main/00.pre-work
 
 [1]: https://github.com/MongoDBAtlas/MongoDBAtlasTraining/tree/main/01.Provision%20and%20CRUD
 
