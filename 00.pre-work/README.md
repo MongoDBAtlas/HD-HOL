@@ -30,7 +30,7 @@ Cluster Name을 입력 하고 Create Deployment 클릭 하여 데이터 베이�
 Atlas 데이터베이스 클러스터를 접근하기 위한 계정 생성으로 Security 메뉴에 Database Access를 클릭 하여 계정을 생성 할 수 있습니다.    
 Hands-on에서는 Id/password를 이용하는 방식의 데이터베이스 계정을 생성 합니다.   
 <img src="/00.pre-work/images/image12.png" width="90%" height="90%">  
-<img src="/00.pre-work/images/image08.png" width="90%" height="90%">  
+<img src="/00.pre-work/images/images08.png" width="90%" height="90%">  
 계정은 atlas-account로 하여 생성 합니다. Built-in Role 은 편의상 Read and Write to any database 를 선택합니다.
 
 
