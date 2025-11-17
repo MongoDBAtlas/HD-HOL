@@ -41,7 +41,7 @@ Security의 Network Access메뉴를 선택 합니다.
 <img src="/00.pre-work/images/image11.png" width="80%" height="80%">  
 Add IP Address를 클릭하고 Add IP Access List Entry 에서 사용자 IP 등록되어 있는지 확인 합니다.
 만약 미등록 되어 있다면 Add current IP Address를 클릭하하고 Confirm을 선택 합니다.  
-<img src="/00.pre-work/images/image13.png" width="80%" height="80%">  
+<img src="/00.pre-work/images/image15.png" width="80%" height="80%">  
 방화벽 설정은 1분 가량의 시간이 소요 됩니다.
 
 
