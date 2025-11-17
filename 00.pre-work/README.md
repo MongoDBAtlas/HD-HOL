@@ -20,7 +20,7 @@ https://www.mongodb.com/ko-kr/cloud/atlas/register
 Atlas에 로그인 후 테스트용 데이터 베이스를 생성 합니다.    
 로그인 후 Deployment 메뉴에 Database 를 클릭 합니다. 오른쪽 화면에 생성되어 진 데이터 베이스 정보를 볼 수 있으며 최초에는 데이터 베이스가 없음으로 Create를 클릭 하여 데이터베이스 클러스터를 생성 합니다.    
 
-<img src="/00.pre-work/images/images01.png" width="90%" height="90%">     
+<img src="/00.pre-work/images/images12.png" width="90%" height="90%">     
 클러스터 사양을 선택 할 수 있으며 무료로 사용 할 수 있는 Shared를 선택 하고 Cloud Provider로 AWS를 선택 하고 지역은 Seoul을 선택 합니다.
 
 <img src="/00.pre-work/images/images02.png" width="90%" height="90%">     
