@@ -29,18 +29,19 @@ Cluster Name을 입력 하고 Create Deployment 클릭 하여 데이터 베이�
 #### Database Account 생성
 Atlas 데이터베이스 클러스터를 접근하기 위한 계정 생성으로 Security 메뉴에 Database Access를 클릭 하여 계정을 생성 할 수 있습니다.    
 Hands-on에서는 Id/password를 이용하는 방식의 데이터베이스 계정을 생성 합니다.   
-<img src="/00.pre-work/images/images08.png" width="90%" height="90%">  
+<img src="/00.pre-work/images/image12.png" width="90%" height="90%">  
+<img src="/00.pre-work/images/image08.png" width="90%" height="90%">  
 계정은 atlas-account로 하여 생성 합니다. Built-in Role 은 편의상 Read and Write to any database 를 선택합니다.
 
 
 #### Network Access 생성
 데이터 베이스 접근 테스트를 위해서 접근 하려는 컴퓨터의 IP 주소를 방화벽에 허용 해 주어야 합니다.    
 Security의 Network Access메뉴를 선택 합니다.
-<img src="/00.pre-work/images/images12.png" width="80%" height="80%">  
-<img src="/00.pre-work/images/images11.png" width="80%" height="80%">  
+<img src="/00.pre-work/images/image12.png" width="80%" height="80%">  
+<img src="/00.pre-work/images/image11.png" width="80%" height="80%">  
 Add IP Address를 클릭하고 Add IP Access List Entry 에서 사용자 IP 등록되어 있는지 확인 합니다.
 만약 미등록 되어 있다면 Add current IP Address를 클릭하하고 Confirm을 선택 합니다.  
-<img src="/00.pre-work/images/images13.png" width="80%" height="80%">  
+<img src="/00.pre-work/images/image13.png" width="80%" height="80%">  
 방화벽 설정은 1분 가량의 시간이 소요 됩니다.
 
 
