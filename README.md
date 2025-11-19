@@ -6,7 +6,8 @@ __Agenda__
 
 
 0. __PreWork__
-    - [GitHub][0]
+    - [Prew-Work 클라우드 설치](/00.pre-work/README.md)
+    - [Prew-Work 로컬 설치](/00.pre-work/on-premise.md)
 
 1.  __Atlas__
     - MongoDB & Document Model
