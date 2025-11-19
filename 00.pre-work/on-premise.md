@@ -31,6 +31,9 @@ https://www.mongodb.com/products/compass
 Mongosh :
 https://www.mongodb.com/docs/mongodb-shell/install/
 
+
+샘플 데이터셋 로드를 위해 MongoDB Database Tools를 다운로드 합니다.
+
 MongoDB Database Tools :
 https://www.mongodb.com/try/download/database-tools
 
