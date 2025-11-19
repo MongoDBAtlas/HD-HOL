@@ -6,7 +6,19 @@
 ### Pre Work
 
 
-#### Atlas Account
+#### On-premise 환경 - MongoDB Community 로컬 설치
+로컬 환경의 운영체제를 아래 링크에서 선택 후 참조하여 설치 진행
+https://www.mongodb.com/ko-kr/docs/v8.0/administration/install-community/
+설치 미디어 다운로드 센터
+https://www.mongodb.com/try/download/community
+
+설치 후 mongod 명령어 실행 확인
+<img src="/00.pre-work/images/image14.png" width="90%" height="90%">     
+
+웹브라우저 주소창에 http://localhost:27017/ 입력하여 mongod와 연결 확인
+<img src="/00.pre-work/images/image14.png" width="90%" height="90%">     
+
+#### Cloud 환경 - Mongodb Atlas Account
 MongoDB Atlas 의 무료 계정을 생성 합니다.     
 Atlas는 관리형 데이터 베이스로 간편하게 데이터 베이스를 생성 하고 인터넷을 통한 엑세스로 편리하게 사용 할 수 있습니다.   
 
