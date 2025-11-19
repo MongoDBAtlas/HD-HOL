@@ -334,7 +334,7 @@ insertUsers();
 #### 2.1 로컬 MongoDB Connection
 로컬 설치된 MongoDB와 연동하는 경우는 아래와 같이 로컬 주소를 통해서 접속합니다.
 
-<img src="/01.Provision and CRUD/images/image01.png" width="90%" height="90%">     
+<img src="/01.Provision and CRUD/images/image24.png" width="90%" height="90%">     
 
 
 
@@ -359,7 +359,7 @@ Connection String을 복사하여 줍니다. 이후 Compass를 실행 하여 줍
 <img src="/01.Provision and CRUD/images/image04.png" width="90%" height="90%">     
 
 
-#### 데이터 조회
+#### 2.3 데이터 조회
 데이터베이스에서 생성한 handson 탭을 클릭 하면 컬렉션 리스트를 볼 수 있습니다. 생성한 user컬렉션을 선택 합니다.    
 
 <img src="/01.Provision and CRUD/images/image05.png" width="90%" height="90%">     
@@ -383,7 +383,7 @@ ssn 이 123-456-0001 인 데이터를 찾기 위해 다음과 같이 입력 하�
 
 
 
-### option
+### 2.4 option
 생성된 데이터 베이스중 Movie 관련 데이터 컬렉션 (sample_mflix.movies)에서 다음 내용을 Query 합니다.
 
 - 1987 년에 나온 데이터 조회 (Where year = 1987)
