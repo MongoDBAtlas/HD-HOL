@@ -34,5 +34,7 @@ https://www.mongodb.com/try/download/database-tools
 
 #### 샘플 데이터셋 다운로드 및 활용
 샘플 데이터 로드 가이드 에서 로컬 배포를 선택하여 다운로드 및 데이터 로드 진행
+
 (윈도우 환경일 경우 https://atlas-education.s3.amazonaws.com/sampledata.archive 주소로 웹브라우져를 통해서 sapledata.archive 다운로드)
+
 https://www.mongodb.com/ko-kr/docs/atlas/sample-data/#load-sample-data
