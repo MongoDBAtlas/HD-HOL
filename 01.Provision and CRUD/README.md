@@ -331,7 +331,14 @@ insertUsers();
 데이터가 100건이 생성이 되게 됩니다.
 
 
-#### Connection
+#### 2.1 로컬 MongoDB Connection
+로컬 설치된 MongoDB와 연동하는 경우는 아래와 같이 로컬 주소를 통해서 접속합니다.
+
+<img src="/01.Provision and CRUD/images/image01.png" width="90%" height="90%">     
+
+
+
+#### 2.2 MongoDB Atlas Connection
 MongoDB atlas Console에 접근 주소를 얻어야 합니다. 
 접속 주소를 얻기 위해 Console에 로그인합니다.    
 데이터베이스 클러스터의 Connect 버튼을 클릭 합니다.
