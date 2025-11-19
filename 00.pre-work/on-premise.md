@@ -19,6 +19,8 @@ https://www.mongodb.com/try/download/community
 웹브라우저 주소창에 http://localhost:27017/ 입력하여 mongod와 연결 확인
 <img src="/00.pre-work/images/image10.png" width="90%" height="90%">
 
+
+
 정상 설치 후 아래 추가 툴 설치 진행
 #### 기타 필요한 소프트웨어
 MongoDB에 접속하고 데이터를 조회 하는 GUI Tool (Compass)와  Mongosh를 다운로드 합니다.
@@ -31,6 +33,8 @@ https://www.mongodb.com/docs/mongodb-shell/install/
 
 MongoDB Database Tools :
 https://www.mongodb.com/try/download/database-tools
+
+
 
 #### 샘플 데이터셋 다운로드 및 활용
 샘플 데이터 로드 가이드 에서 로컬 배포를 선택하여 다운로드 및 데이터 로드 진행
