@@ -19,10 +19,14 @@ Pre-Work에 나온 바와 같이 Atlas database를 배포 하여 줍니다.
 - [Prew-Work 로컬 설치](/00.pre-work/on-premise.md)
 
 
-### MONGOSH
+### 1. MONGOSH
 
-Mongosh로 Atlas 에 접속 하고 MongoDB Query 를 이용하여 데이터를 생성, 조회, 삭제를 테스트 합니다. NodeJS에 익숙하지 않은 경우 이를 이용하여 테스트 합니다.
+Mongosh로 Atlas 에 접속 하고 MongoDB Query 를 이용하여 데이터를 생성, 조회, 삭제를 테스트 합니다.
 
+
+## 1.1 로컬 설치 연동
+
+## 1.2. Atlas Connection
 
 #### Connection
 
@@ -58,6 +62,7 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 Atlas atlas-r2fbdn-shard-0 [primary] test> 
 ````
 
+## 1.3. CRUD 테스트
 #### Insert Test
 
 Mongosh을 이용하여 Atlas와 연결하여 데이터를 생성 합니다.
@@ -266,7 +271,7 @@ Atlas atlas-r2fbdn-shard-0 [primary] hddb>
 
 
 
-### Compass
+### 2. Compass
 
 MongoDB Cluster에 접속하여 저장된 데이터 등을 볼 수 있는 개발자용 GUI툴입니다. 이를 이용하여 데이터를 조회 하고 변경 하여 줍니다. 다음 링크에서 다운로드가 가능 합니다.    
 Compass :   
