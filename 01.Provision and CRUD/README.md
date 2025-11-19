@@ -24,7 +24,7 @@ Pre-Work에 나온 바와 같이 Atlas database를 배포 하여 줍니다.
 Mongosh로 Atlas 에 접속 하고 MongoDB Query 를 이용하여 데이터를 생성, 조회, 삭제를 테스트 합니다.
 
 
-## 1.1 로컬 설치 연동
+## 1.1 로컬 MongoDB 설치 연동
 
 로컬 설치의 경우 mongosh "mongodb://127.0.0.1:27017" 입력하여 mongosh로 로컬 설치 MongoDB에 접속합니다.
 <img src="/01.Provision and CRUD/images/image23.png" width="90%" height="90%">     
@@ -32,7 +32,7 @@ Mongosh로 Atlas 에 접속 하고 MongoDB Query 를 이용하여 데이터를 �
 
 
 
-## 1.2. Atlas Connection
+## 1.2. MongoDB Atlas Connection
 
 #### Connection
 
